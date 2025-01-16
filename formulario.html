@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Producto</title>
+</head>
+<body>
+    <a href="mostrar_productos.php">Ir a productos</a>
+    <h1>Agregar Producto</h1>
+    <form action="agregar_producto.php" method="POST">
+        <label for="nombre">Nombre del Producto:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="noParte">Número de Parte:</label><br>
+        <input type="text" id="noParte" name="noParte" required><br><br>
+
+        <button type="submit">Agregar</button>
+    </form>
+
+    <h1>Eliminar Producto</h1>
+    <form action="eliminar_producto.php" method="POST">
+        <label for="nombre">Nombre del Producto:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="noParte">Número de Parte:</label><br>
+        <input type="text" id="noParte" name="noParte" required><br><br>
+
+        <button type="submit">Eliminar</button>
+    </form>
+</body>
+</html>
